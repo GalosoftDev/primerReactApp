@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import HolaMundo from './components/HolaMundo';
+import AdiosMundo from './components/AdiosMundo';
+
 
 function App() {
   return (
@@ -10,7 +13,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >Learn React</a>
-        <h3>Hola Mundo</h3>
+        <HolaMundo />
+        <AdiosMundo />
       </header>
     </div>
   );
